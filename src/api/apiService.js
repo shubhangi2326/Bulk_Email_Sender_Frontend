@@ -1,7 +1,7 @@
 import axios from "axios";
 const apiClient = axios.create({
- 
-  baseURL: "http://localhost:5000",
+  baseURL:
+    "https://bulk-email-sender-backend-3b8hrizzr-shubhangi2326s-projects.vercel.app/",
 });
 
 export const uploadAndSendFile = async (formData) => {
